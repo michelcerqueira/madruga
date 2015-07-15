@@ -72,6 +72,7 @@
 	  left: 35%;
 	  top: 181px;
 	   z-index: 999;
+	   POSITION: ABSOLUTE;
 	
 	}
 	
@@ -107,6 +108,7 @@
 	  left: 20.8%;
 	  top: 278px;
 	   z-index: 999;
+	   POSITION: ABSOLUTE;
 	}
 	.botao {
 	  position: relative;
@@ -157,6 +159,7 @@
 	  left: 28%;
 	  top: 565px;
 	  z-index: 999;
+	  POSITION: ABSOLUTE;
 	}
 	.pointer {
 	  position: absolute;
