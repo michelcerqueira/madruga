@@ -115,6 +115,13 @@
 	  width: 52%;
 	  MARGIN: 0 AUTO;
 	  MARGIN-TOP: 15PX;
+	  z-index:999;
+	}
+	.botao img{
+		position: relative;
+		width: 100%;
+		z-index:999;
+		
 	}
 	.pointer {
 	  position: absolute;
