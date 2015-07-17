@@ -29,15 +29,14 @@
     fortune.spin = function(price) {
       price = typeof price === "number"?price:Math.floor(Math.random() * prices_amount);
       var deferred = $.Deferred();
-      //var position = Math.floor(prices_delta * (price - 1/2) + randomBetween(options.separation, prices_delta - options.separation));
-      
+    
 	   var sound = document.createElement('audio');
         sound.setAttribute('src', 'img/wheel.mp3');
 		 document.body.appendChild(sound);
 			sound.play();
 	 var ar = [55,80,90,280,320];
 	  var position =  $.shuffle(ar);
-	  console.log(position);
+	  
 	  position = ar[0];
 	  
 	   if(x == 3){		  
@@ -54,7 +53,7 @@
 	  }
 	  if(x == 19){		  
 		var position = 130;
-		//
+	
 			
 	  }
 	  if(x == 27){
@@ -102,7 +101,7 @@
 	   if(x == 72){
 		   	var position = 140;
 			
-		  //
+	
 	  }
 	   if(x == 76){		  
 		var position = 122;
@@ -129,15 +128,15 @@
 	  }if(x == 100){
 		   	var position = 135;
 			x = 0;
-			//
+			
 		  
 	  }
 	  
-	  //console.log(position);
+	
 	  var spins = randomBetween(options.min_spins, options.max_spins);
       var final_position = 360 * spins + position;
 	 
-	  //var final_position = 4295;
+	 
       var prev_position = 300;
       var is_bouncing = false;
 
