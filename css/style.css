@@ -72,8 +72,9 @@
 	  left: 35%;
 	  top: 181px;
 	   z-index: 999;
-	    POSITION: ABSOLUTE;
-	
+   POSITION: ABSOLUTE;
+
+	  
 	}
 	
 	.fundointerna img {
@@ -108,13 +109,22 @@
 	  left: 20.8%;
 	  top: 278px;
 	   z-index: 999;
+
 	    POSITION: ABSOLUTE;
+
 	}
 	.botao {
 	  position: relative;
 	  width: 52%;
 	  MARGIN: 0 AUTO;
 	  MARGIN-TOP: 15PX;
+	  z-index:999;
+	}
+	.botao img{
+		position: relative;
+		width: 100%;
+		z-index:999;
+		
 	}
 	.pointer {
 	  position: absolute;
@@ -159,7 +169,8 @@
 	  left: 28%;
 	  top: 565px;
 	  z-index: 999;
-	   POSITION: ABSOLUTE;
+   POSITION: ABSOLUTE;
+
 	}
 	.pointer {
 	  position: absolute;
