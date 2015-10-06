@@ -67,22 +67,19 @@
 		width: 100%;
 		
 	}
-	.fundointerna{
-		width: 29%;
-	  border: 0px solid;
-	  margin: 0 auto;
-	  left: 35%;
-	  top: 181px;
-	   z-index: 999;
-   position: absolute;
-
-	  
-	}
+	.fundointerna {
+    width: 29%;
+    border: 0px solid;
+    margin: 0 auto;
+    left: 44%;
+    top: 178px;
+    z-index: 999;
+    position: absolute;
+}
 	
 	.fundointerna img {
 	  width: 41%;
-	  margin-left: 118px;
-	  margin-top: 1px;
+	 
 	}
 }	
 
@@ -97,7 +94,7 @@
 	}
 	.centro {
 		border: 0px solid #000;
-		width: 310px;
+		width: 100%;
 		position: relative;
 		height: auto;
 		margin: 0 auto;
@@ -105,13 +102,13 @@
 		overflow-x: hidden;
 	}
 	.fundointerna {
-	     width: 70%;
+	   width: 71%;
     border: 0px solid;
     margin: 0 auto;
-       left: -2.2%;
-    top: 108px;
+    top: 35%;
     z-index: 999;
-    POSITION: ABSOLUTE;
+	position:absolute;
+	left:35%;
 
 	}
 	.botao {
