@@ -11,7 +11,7 @@
 	
 	
 	
-@media screen and (max-width: 1600px) {
+@media  (max-width: 1600px) {
 	
 	
 	.centro {
@@ -54,6 +54,8 @@
 		position: relative;
 		width: 100%;
 	}
+	
+	
 	.botao{
 		  position: relative;
 		  width: 19%;
@@ -72,7 +74,7 @@
 	  left: 35%;
 	  top: 181px;
 	   z-index: 999;
-   POSITION: ABSOLUTE;
+   position: absolute;
 
 	  
 	}
@@ -84,18 +86,18 @@
 	}
 }	
 
-@media screen and (max-width: 800px){
+@media (max-width: 800px){
 	.roulette {
 	  width: 99%;
 	  position: relative;
 	  border: 0px solid #000;
-	  margin: 0 AUTO;
+	  margin: 0 auto;
 	  overflow-y: hidden;
 	  overflow-x: hidden;
 	}
 	.centro {
 		border: 0px solid #000;
-		width: 800px;
+		width: 310px;
 		position: relative;
 		height: auto;
 		margin: 0 auto;
@@ -103,21 +105,20 @@
 		overflow-x: hidden;
 	}
 	.fundointerna {
-	  width: 70%;
-	  border: 0px solid;
-	  margin: 0 auto;
-	  left: 20.8%;
-	  top: 278px;
-	   z-index: 999;
-
-	    POSITION: ABSOLUTE;
+	     width: 70%;
+    border: 0px solid;
+    margin: 0 auto;
+       left: -2.2%;
+    top: 108px;
+    z-index: 999;
+    POSITION: ABSOLUTE;
 
 	}
 	.botao {
 	  position: relative;
 	  width: 52%;
 	  MARGIN: 0 AUTO;
-	  MARGIN-TOP: 15PX;
+	  MARGIN-TOP: 6PX;
 	  z-index:999;
 	}
 	.botao img{
@@ -134,11 +135,11 @@
 	  border-color: white rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) rgba(89, 89, 89, 0);
 	  z-index: 999;
 	  margin-top: -4px;
-	  left: 46%;
+	  left: 40%;
 	}
 }
 
-@media screen and (min-width: 1600px){
+@media (min-width: 1600px){
 	.roulette {
 	  width: 99%;
 	  position: relative;
@@ -149,7 +150,7 @@
 	}
 	.centro {
 	  border: 0px solid #000;
-	  width: 1600px;
+	  width: 1600px !important;
 	  position: relative;
 	  height: auto;
 	  margin: 0 auto;
@@ -184,7 +185,7 @@
 	}
 }
 
-@media screen and (width: 720px){
+@media  (width: 720px){
 	.centro {
 	  border: 0px solid #000;
 	  width: 720px;
