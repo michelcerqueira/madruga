@@ -40,7 +40,7 @@
 	  position = ar[0];
 	  
 	   if(x == 3){		  
-		var position = 143;
+		var position = 220;
 			
 	  }
 	  if(x == 7){		  
@@ -57,11 +57,11 @@
 			
 	  }
 	  if(x == 27){
-		  var position = 215;
+		  var position = 220;
 		 
 	  }
 	   if(x == 33){
-		   var position = 220;
+		   var position = 0;
 		 
 		  
 	  }
@@ -90,7 +90,7 @@
 			
 	  }
 	   if(x == 60){		  
-			 var position = 220;
+			 var position = 0;
 		  
 	  }
 	   if(x == 66){
@@ -104,7 +104,7 @@
 	
 	  }
 	   if(x == 76){		  
-		var position = 122;
+		var position = 220;
 			
 	  }
 	   if(x == 80){
@@ -122,7 +122,7 @@
 		  
 	  }
 	  if(x == 96){
-		   	var position = 220;
+		   	var position = 3;
 			
 		  
 	  }if(x == 100){
